@@ -1,6 +1,7 @@
-var projects = ["2019 - iOS Apps", "2018 - Mac Apps", "2017 - Web Design"]
+var projects = ["2019 - iOS Apps", "2018 - Mac Apps", "2017 - Intern"]
 
-for i in 0..<projects.count {
-    print("\(i+1). \(projects[i])")
+print("Portfolio:")
+for item in projects {
+    print(item)
 }
 
